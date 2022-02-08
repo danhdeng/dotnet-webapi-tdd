@@ -1,3 +1,16 @@
+# project setup
+#create new directory for project
+donet new sln -o CloudCustomers 
+
+# create new web api Project
+dotnet new webapi -o CloudCustomers.API
+
+# create an unit test project
+dotnet new xunit -o CloudCustomers.UnitTests
+
+# associate the projects with the Solution
+dotnet sln  add **/*.csproj
+
 # packages for Unit testing
 
 moq
