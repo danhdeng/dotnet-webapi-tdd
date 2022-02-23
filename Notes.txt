@@ -1,6 +1,6 @@
 # project setup
 #create new directory for project
-donet new sln -o CloudCustomers 
+dotnet new sln -o CloudCustomers 
 
 # create new web api Project
 dotnet new webapi -o CloudCustomers.API
